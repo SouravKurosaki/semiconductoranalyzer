@@ -21,6 +21,9 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
+st.components.v1.html("""
+    <meta name="google-site-verification" content="FEZWF2w-ajF_Du6_H-c3dK-LaNbrcfSJ2-zb6EcDbb8" />
+""", height=0)
 
 # Custom CSS with dark mode support
 st.markdown("""
